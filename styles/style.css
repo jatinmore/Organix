@@ -1,1 +1,10 @@
 @import url('https://blendedui.netlify.app/styles/main.css');
+.nav-link {
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.brand {
+    cursor: pointer;
+}
