@@ -1,0 +1,56 @@
+@import url('/styles/style.css');
+.horizontal-card {
+    width: 40rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.h-text {
+    /* position: relative;
+    left: 18rem;
+    bottom: 12rem;
+    padding: 1rem;
+    width: fit-content; */
+    flex: 1;
+}
+
+.btn-h {
+    float: left;
+}
+
+
+/* .btn-h {
+    margin: 2rem 20rem 0rem 0rem;
+    float: left;
+    width: 14rem;
+} */
+
+.qty {
+    width: 20%
+}
+
+
+/* .checkout {
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+/* .checkout span {
+    margin-right: 4.5rem;
+} */
+
+.checkout {
+    width: 15rem;
+    padding: 1rem;
+    height: max-content;
+}
+
+.price span {
+    margin: 1rem;
+}
+
+.btn-cart {
+    width: 100%;
+}

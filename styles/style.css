@@ -24,7 +24,7 @@
 }
 
 .container {
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 
 .m {
@@ -88,6 +88,11 @@
     font-size: 30px;
 }
 
+.grid-container-column>div {
+    grid-gap: 1rem;
+    margin: 1rem;
+}
+
 .card-btn button {
     width: 100%;
 }
@@ -110,11 +115,13 @@
 }
 
 .footer {
-    height: 10rem;
+    background: var(--white);
+    /* height: 10rem; */
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .icon {
@@ -129,4 +136,26 @@
 
 .footer-text {
     padding: 1rem;
+}
+
+.btn-badge .fas {
+    font-size: 1.2rem;
+    margin-top: 0.1rem;
+}
+
+.count {
+    color: white;
+    background: var(--black);
+    border-radius: 50%;
+    padding: 0.3rem;
+    width: 1.3rem;
+    right: 0.1rem;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link .fas {
+    color: var(--black);
 }
