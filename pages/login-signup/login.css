@@ -1,0 +1,15 @@
+@import url('/styles/style.css');
+.w {
+    width: 100%;
+}
+
+.card-login {
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.signup-link {
+    margin: 1rem;
+    text-decoration: none;
+    color: var(--black);
+}
