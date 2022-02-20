@@ -1,0 +1,28 @@
+@import url('/styles/style.css');
+.card-b {
+    position: absolute;
+}
+
+.wishlist-badge {
+    position: relative;
+    left: 7rem;
+}
+
+.wishlist-icon {
+    color: var(--red);
+    font-size: 1.2rem;
+}
+
+.btn-round {
+    background: var(--white);
+    border-radius: 50%;
+    border: none;
+    padding: 0.5rem;
+    margin: auto;
+    border: 1px solid var(--black);
+    outline: none;
+}
+
+.nav a {
+    text-decoration: none;
+}
