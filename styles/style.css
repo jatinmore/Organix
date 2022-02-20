@@ -130,3 +130,7 @@
 .footer-text {
     padding: 1rem;
 }
+
+.nav a {
+    text-decoration: none;
+}

@@ -11,13 +11,12 @@
 
 <body>
     <nav class="nav fixed bg-light box-shadow">
-        <a class="brand">Organix </a>
+        <a class="brand" href="/index.html">Organix </a>
         <ul class="navbar-nav">
             <!-- <li class="nav-link"><a href="" class="nav-link">SHOP</a></li> -->
         </ul>
         <ul class="navbar-nav">
             <li class="nav-link"><a href="" class="nav-link">LOGIN</a></li>
-            <li class="nav-link"><a href="" class="nav-link">SIGNUP</a></li>
             <li class=""><input type="text" class="input-f" placeholder="Search"><i class="fa-solid fa-apple-whole"></i>
             </li>
         </ul>
@@ -36,32 +35,35 @@
             <div class="sidebar">
                 <div class="aside">
                     <span class="aside-header">Filter</span>
+                    <br>
                     <hr>
 
                     <ul class="list">
                         <p>Rating</p>
                         <li class="aside-item">
                             <div class="rating">
-                                <label for=""><input type="checkbox"><span>2<i class="fas fa-star"></i>and above</span>
+                                <label for=""><p><input type="checkbox"> 2<i class="fas fa-star"></i> and above</p>
                                 </label>
-                                <label for=""><input type="checkbox"><span>4<i class="fas fa-star"></i>and above</span>
+                                <label for=""><p><input type="checkbox"> 4<i class="fas fa-star"></i> and above</p>
                                 </label>
                             </div>
+                            <br>
                             <hr>
                         </li>
                         <li class="aside-item">
                             <p>Categories</p>
                             <div class="category">
-                                <p><label for=""><input type="checkbox">Juices</label></p>
+                                <p><label for=""><input type="checkbox"> Juices</label></p>
 
-                                <p><label for=""><input type="checkbox">Dairy</label></p>
+                                <p><label for=""><input type="checkbox"> Dairy</label></p>
 
-                                <p><label for=""><input type="checkbox">Fruit</label></p>
+                                <p><label for=""><input type="checkbox"> Fruit</label></p>
 
-                                <p><label for=""><input type="checkbox">Vegetables</label></p>
+                                <p><label for=""><input type="checkbox"> Vegetables</label></p>
 
-                                <p><label for=""><input type="checkbox">Dry Food</label></p>
+                                <p><label for=""><input type="checkbox"> Dry Food</label></p>
                             </div>
+                            <br>
                             <hr>
                         </li>
 
@@ -70,18 +72,22 @@
                                 <p>Price</p>
                                 <input type="range" class="price-range">
                             </div>
+                            <br>
+                            <hr>
                         </li>
 
                         <li class="aside-item">
                             <div class="size">
                                 <p>Sizes</p>
-                                <button class="btn">250g</button>
-                                <button class="btn">300g</button>
-                                <button class="btn">350g</button>
-                                <button class="btn">500g</button>
-                                <button class="btn">1kg</button>
-                                <button class="btn">2kg</button>
+                                <div class="grid-container size-container">
+                                    <button class="btn ">250g</button>
+                                    <button class="btn ">300g</button>
+                                    <button class="btn ">350g</button>
+                                    <button class="btn">500g</button>
+                                    <button class="btn">1kg</button>
+                                    <button class="btn">2kg</button>
 
+                                </div>
 
 
                             </div>
@@ -91,7 +97,7 @@
                 </div>
             </div>
 
-            <div class="content-main">
+            <div class="">
                 <div class="container">
 
                     <div class="grid-container product-list">
@@ -110,8 +116,6 @@
                                 </div>
                             </div>
                         </div>
-
-
                         <div class="item2">
                             <div class="card">
                                 <img class="card-img" srcset="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
@@ -192,17 +196,21 @@
                         </div>
 
                     </div>
-
-
                 </div>
-
-
-
-
-
             </div>
         </div>
     </div>
+    <footer class="footer">
+        <div class="icon">
+            <p class="text-center footer-text">FOLLOW US</p>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-github"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <p class="font-size-10 text-center footer-text">&copy;2022|Organix</p>
+        </div>
+
+
+    </footer>
 </body>
 
 </html>
