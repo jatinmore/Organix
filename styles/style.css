@@ -108,3 +108,25 @@
     float: left;
     font-size: 1.5rem
 }
+
+.footer {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    max-width: 15rem;
+    align-items: center;
+    text-align: center;
+}
+
+.fab {
+    color: var(--black);
+}
+
+.footer-text {
+    padding: 1rem;
+}
