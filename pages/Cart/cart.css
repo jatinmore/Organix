@@ -1,9 +1,12 @@
 @import url('/styles/style.css');
 .horizontal-card {
-    width: 40rem;
+    width: fit-content;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    border: none;
+    border: outset;
+    margin-bottom: 2rem;
 }
 
 .h-text {
@@ -47,10 +50,16 @@
     height: max-content;
 }
 
-.price span {
-    margin: 1rem;
-}
-
 .btn-cart {
     width: 100%;
+}
+
+.horizontal-img {
+    width: 12rem;
+    height: 10rem;
+}
+
+.grid-container-column {
+    display: grid;
+    grid-template-columns: auto auto;
 }
