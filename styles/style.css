@@ -114,12 +114,13 @@
 }
 
 .footer {
-    position: fixed;
     background: var(--white);
+    /* height: 10rem; */
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .icon {

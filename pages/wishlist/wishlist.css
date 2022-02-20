@@ -3,6 +3,10 @@
     position: absolute;
 }
 
+body {
+    overflow: hidden;
+}
+
 .wishlist-badge {
     position: relative;
     left: 7rem;
