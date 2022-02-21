@@ -56,14 +56,6 @@
     cursor: pointer;
 }
 
-
-/* .fa-thin,
-.fa-magnifying-glass {
-    border: 2px solid black;
-    padding: 5rem;
-    font-size: 2rem;
-} */
-
 .fa-regular {
     color: black;
     background-color: blue;
@@ -139,4 +131,26 @@
 
 .footer-text {
     padding: 1rem;
+}
+
+.btn-search {
+    display: none;
+}
+
+form.search-container input[type=text] {
+    padding: 0.5rem;
+    background: #f1f1f1;
+    width: 80%;
+    float: left;
+    outline: none;
+    border: none;
+}
+
+form.search-container button {
+    width: 18%;
+    float: left;
+    padding: 0.49rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
