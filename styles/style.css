@@ -142,6 +142,9 @@
     padding: 1rem;
 }
 
+.nav a {
+    text-decoration: none;
+}
 
 .btn-search {
     display: none;
