@@ -32,7 +32,7 @@
 }
 
 .container {
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
 
 .m {
@@ -116,7 +116,6 @@
 
 .footer {
     background: var(--white);
-    /* height: 10rem; */
     width: 100%;
     display: flex;
     justify-content: center;
