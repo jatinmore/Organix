@@ -19,4 +19,8 @@ https://organix.netlify.app/
 - Filters
 - Login/Signup
 
+## Tech Stack
+- HTML
+- CSS
+- JS
 
